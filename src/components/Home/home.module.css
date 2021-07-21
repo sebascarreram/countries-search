@@ -1,0 +1,33 @@
+.error {
+  margin-top: 1rem;
+  color: #e74c3c;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 5rem;
+  margin: 2rem 0;
+  color: #fff;
+}
+.titleNumber {
+  color: #2ecc71;
+  font-size: 5.5rem;
+}
+.input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  display: flex;
+}
+.input:hover {
+  border: 3px solid #2ecc71;
+}
